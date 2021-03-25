@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
+// import Nav from 'react-bootstrap/Nav'
+import { Navbar, Nav } from 'react-bootstrap'
 
 import './Header.scss'
 
@@ -27,7 +27,7 @@ const alwaysOptions = (
 )
 
 const Header = ({ user }) => (
-  <Navbar bg="dark" expand="md">
+  <Navbar bg="dark" expand="md" id="navbar">
     <Navbar.Brand href="#">
       <h3 className="navbarTitle">Anime Stream</h3>
     </Navbar.Brand>
@@ -41,5 +41,15 @@ const Header = ({ user }) => (
     </Navbar.Collapse>
   </Navbar>
 )
+
+window.onscroll = function () { scrollFunction() }
+
+const scrollFunction = () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById('navbar').style.top = '0'
+  } else {
+    document.getElementById('navbar').style.top = '0'
+  }
+}
 
 export default Header

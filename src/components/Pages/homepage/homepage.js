@@ -8,7 +8,40 @@ const homepage = () => (
   <div className='container-home'>
     <div className='homeBox'>
       <Link to='/Inuyasha'>
-        <img width="400" height="400" src={inuyashaImg} className="inuyasha-img"></img>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
+      </Link>
+      <Link to='/Inuyasha'>
+        <img src={inuyashaImg} className="inuyasha-img"></img>
       </Link>
     </div>
   </div>

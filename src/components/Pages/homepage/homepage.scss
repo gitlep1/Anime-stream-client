@@ -2,6 +2,7 @@
 
 body {
   background-color: black;
+  overflow: auto;
 }
 
 div {
@@ -11,18 +12,26 @@ div {
 
 .container-home {
   display: flex;
-  height: calc(100vh - 100px)
+  height: calc(100vh - 100px);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .homeBox {
-  border: 5px solid red;
-  flex-basis: 100vw;
+  border: 5px solid black;
 }
 
 .inuyasha-img {
   background-repeat: no-repeat;
-  max-width:230px;
-  max-height:230px;
+  max-width:200px;
+  max-height:190px;
   width: auto;
   height: auto;
+  opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  margin-right: 5%;
+  margin-top: 5%;
 }

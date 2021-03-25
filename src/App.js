@@ -12,6 +12,7 @@ import ChangePassword from './components/ChangePassword/ChangePassword'
 
 import backButton from './components/backButton'
 import homepage from './components/Pages/homepage/homepage'
+import inuyasha from './components/Pages/Inuyasha/inuyasha'
 
 class App extends Component {
   constructor () {
@@ -70,6 +71,7 @@ class App extends Component {
           )} />
           <Route exact path='/sign-in' component={backButton} />
           <Route exact path='/' component={homepage} />
+          <Route exact path='/inuyasha' component={inuyasha} />
         </main>
       </Fragment>
     )
