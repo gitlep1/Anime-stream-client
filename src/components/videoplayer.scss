@@ -1,0 +1,17 @@
+@import '~video-react/styles/scss/video-react';
+
+.video-react-control-bar, .video-react-control-bar-auto-hide {
+  font-size: 15px;
+  height: 3%;
+  width: 3%;
+}
+
+.video-react-play-control, .video-react-control, .video-react-button, .video-react-paused {
+  font-size: 15px;
+}
+
+.video-react-big-play-button, .video-react-big-play-button-left {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 35%;
+}

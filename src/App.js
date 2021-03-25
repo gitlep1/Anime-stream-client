@@ -71,7 +71,7 @@ class App extends Component {
           )} />
           <Route exact path='/sign-in' component={backButton} />
           <Route exact path='/' component={homepage} />
-          <Route exact path='/inuyasha' component={inuyasha} />
+          <Route exact path='/inuyasha/S1E1' component={inuyasha} />
         </main>
       </Fragment>
     )

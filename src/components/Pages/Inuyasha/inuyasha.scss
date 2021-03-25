@@ -1,5 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
-@import '~video-react/styles/scss/video-react';
 
 body {
   background-color: black;
@@ -7,7 +6,6 @@ body {
 }
 
 .container-inuyasha {
-  display: flex;
   height: calc(100vh - 100px);
   align-items: center;
 }
