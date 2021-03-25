@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+.container-back {
+  display: flex;
+
+  .container-back div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid cyan;
+  }
+
+  #backButton {
+    color: red;
+  }
+}

@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: black;
+}
+
+div {
+  color: white;
+  font-size: 50px;
+}
+
+.container-home {
+  display: flex;
+}
+
+.homeBox {
+  border: 5px solid red;
+  flex-basis: 100vw;
+}
