@@ -15,6 +15,12 @@ import homepage from './components/Pages/homepage/homepage'
 import animeList from './components/Pages/AnimeList/animelist'
 import inuyasha from './components/Pages/Inuyasha/inuyasha'
 import bleach from './components/Pages/Bleach/bleach'
+import deathnote from './components/Pages/Deathnote/deathnote'
+// import dbz from './components/Pages/Dragonballz/dbz'
+// import hxh from './components/Pages/Hunterxhunter/hxh'
+// import naruto from './components/Pages/Naruto/naruto'
+// import onepiece from './components/Pages/Onepiece/op'
+// import yyh from './components/Pages/Yuyuhakusho/yyh'
 
 class App extends Component {
   constructor () {
@@ -76,6 +82,12 @@ class App extends Component {
           <Route exact path="/Anime-list" component={animeList} />
           <Route path='/inuyasha/' component={inuyasha} />
           <Route path='/Bleach/' component={bleach} />
+          <Route path='/Deathnote/' component={deathnote} />
+          {/* <Route path='/Dragonballz/' component={dbz} />
+          <Route path='/Hunterxhunter/' component={hxh} />
+          <Route path='/Naruto/' component={naruto} />
+          <Route path='/Onepiece/' component={onepiece} />
+          <Route path='/Yuyuhakusho/' component={yyh} /> */}
         </main>
       </Fragment>
     )

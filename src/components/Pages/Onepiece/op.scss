@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: black;
+  overflow: auto;
+}
+
+.container-op {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 100px);
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.opPageImg {
+  background-repeat: no-repeat;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  margin-left: 33%;
+  margin-top: 11%;
+}
+
+.summary {
+  font-size: 20px;
+}
+
+#nav-dropdown {
+  font-size: 25px;
+}
+
+.season1Episodes {
+  font-size: 15px;
+}
+
+.previous {
+  color: red;
+  margin-right: 30%;
+}
+
+.next {
+  color: cyan;
+  margin-left: 30%;
+}

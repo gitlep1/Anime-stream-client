@@ -3,7 +3,7 @@ import { Link, Route } from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap'
 import { Player } from 'video-react'
 
-import inuyashaPageImg from '../Inuyasha/inuyashaCover.jpg'
+import inuyashaPageImg from './inuyashaCover.jpg'
 import './inuyasha.scss'
 import '../../videoplayer.scss'
 import S1E1 from './Episodes/S1E1.mp4'
