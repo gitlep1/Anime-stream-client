@@ -14,6 +14,7 @@ import backButton from './components/backButton'
 import homepage from './components/Pages/homepage/homepage'
 import animeList from './components/Pages/AnimeList/animelist'
 import inuyasha from './components/Pages/Inuyasha/inuyasha'
+import bleach from './components/Pages/Bleach/bleach'
 
 class App extends Component {
   constructor () {
@@ -74,6 +75,7 @@ class App extends Component {
           <Route exact path='/' component={homepage} />
           <Route exact path="/Anime-list" component={animeList} />
           <Route path='/inuyasha/' component={inuyasha} />
+          <Route path='/Bleach/' component={bleach} />
         </main>
       </Fragment>
     )

@@ -22,7 +22,7 @@ const bleachPage = () => (
     <Route exact path="/Bleach">
       <img src={bleachPageImg} className="bleachPageImg"></img>
       <p className="summary">
-        Higurashi Kagome, after being pulled down a well by a demon, finds herself in Feudal Japan, where she learns that a powerful jewel has been reborn inside her body. After the jewel shatters in an attempt to retrieve it from one of the many demons who was after its power, Kagome must join forces with the half-demon Inu Yasha (also after the jewel’s power) to track down the shards of the jewel before its power falls into the wrong hands.
+        A 15 year-old boy whose name is Kurosaki Ichigo has the ability to see the spirits. The journey begins when Ichigo first meets with Rukia Kuchiki, a Shinigami (in English Soul Reaper). Her mission in the living world is to find evil spirits called Hollow, then eliminate them. When Rukia first meets Ichigo, she finds Ichigo has a tremendous ability in his soul and she thinks he is special. The story continues on with twisted and turns, excitement and sad, friends and foes, and the most important of all, everyone in the series has unique superpower.
       </p>
     </Route>
     <Route exact path="/Bleach/S1E1">
