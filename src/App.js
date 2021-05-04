@@ -18,9 +18,9 @@ import bleach from './components/Pages/Bleach/bleach'
 import deathnote from './components/Pages/Deathnote/deathnote'
 import dbz from './components/Pages/Dragonballz/dbz'
 import hxh from './components/Pages/Hunterxhunter/hxh'
-// import naruto from './components/Pages/Naruto/naruto'
-// import onepiece from './components/Pages/Onepiece/op'
-// import yyh from './components/Pages/Yuyuhakusho/yyh'
+import naruto from './components/Pages/Naruto/naruto'
+import onepiece from './components/Pages/Onepiece/op'
+import yyh from './components/Pages/Yuyuhakusho/yyh'
 
 class App extends Component {
   constructor () {
@@ -85,9 +85,9 @@ class App extends Component {
           <Route path='/Deathnote/' component={deathnote} />
           <Route path='/Dragonballz/' component={dbz} />
           <Route path='/Hunterxhunter/' component={hxh} />
-          {/* <Route path='/Naruto/' component={naruto} />
+          <Route path='/Naruto/' component={naruto} />
           <Route path='/Onepiece/' component={onepiece} />
-          <Route path='/Yuyuhakusho/' component={yyh} /> */}
+          <Route path='/Yuyuhakusho/' component={yyh} />
         </main>
       </Fragment>
     )
